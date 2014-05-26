@@ -5,12 +5,12 @@ public class Avion implements Volador{
 
     @Override
     public String despegar() {
-       return"El avión ha aterrizado con un coste de";
+       return "El avion ha despegado";
     }
 
     @Override
     public String aterrizar(int metros) {
-        return "El avion ha despegado";
+        return "El avión ha aterrizado con un coste de";
     }
 
 }
